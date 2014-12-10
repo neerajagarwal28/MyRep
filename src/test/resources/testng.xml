@@ -1,0 +1,11 @@
+<suite name="My suite">
+<listeners>
+    <listener class-name="com.qtpselenium.framework.datadriven.CustomListener" />
+</listeners>
+  <suite-files>
+   <suite-file path="./PortFolio_Suite.xml" />
+   <suite-file path="./Suite_B.xml" />
+   
+   
+  </suite-files>
+</suite>

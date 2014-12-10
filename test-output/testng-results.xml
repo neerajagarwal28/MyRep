@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74098" started-at="2014-11-19T16:55:20Z" finished-at="2014-11-19T16:56:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74098" started-at="2014-11-19T16:55:20Z" finished-at="2014-11-19T16:56:34Z">
+      <class name="com.qtpselenium.framework.datadriven.PortFolioSuite.LoginTest">
+        <test-method status="PASS" signature="LoginTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.PortFolioSuite.LoginTest@334bfe]" name="LoginTest" duration-ms="43786" started-at="2014-11-19T11:55:25Z" data-provider="PortfolioDataProvider" finished-at="2014-11-19T11:56:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchText=Pen, Password=C1, Runmode=Y, Comment=E1, Expected_Result=D1, Browser=Chrome, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.PortFolioSuite.LoginTest@334bfe]" name="LoginTest" duration-ms="25748" started-at="2014-11-19T11:56:09Z" data-provider="PortfolioDataProvider" finished-at="2014-11-19T11:56:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchText=Pencil, Password=C2, Runmode=Y, Comment=E2, Expected_Result=D2, Browser=Firefox, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="AfterTestActivity()[pri:0, instance:com.qtpselenium.framework.datadriven.PortFolioSuite.LoginTest@334bfe]" name="AfterTestActivity" is-config="true" duration-ms="2" started-at="2014-11-19T11:56:34Z" finished-at="2014-11-19T11:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestActivity -->
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolioSuite.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

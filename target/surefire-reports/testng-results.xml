@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite B" duration-ms="58" started-at="2014-11-15T01:54:04Z" finished-at="2014-11-15T01:54:04Z">
+    <groups>
+    </groups>
+    <test name="Test 1" duration-ms="28" started-at="2014-11-15T01:54:04Z" finished-at="2014-11-15T01:54:04Z">
+      <class name="com.qtpselenium.framework.datadriven.suiteB.Test1">
+        <test-method status="PASS" signature="test1(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.suiteB.Test1@14c71b1]" name="test1" duration-ms="7" started-at="2014-11-14T20:54:04Z" data-provider="suiteBDataProvider" finished-at="2014-11-14T20:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col5=E1, Col4=D1, Col3=C1, Col2=B1, Col1=A1, Runmode=Y, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.suiteB.Test1@14c71b1]" name="test1" duration-ms="11" started-at="2014-11-14T20:54:04Z" data-provider="suiteBDataProvider" finished-at="2014-11-14T20:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col5=E2, Col4=D2, Col3=C2, Col2=B2, Col1=A2, Runmode=Y, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.qtpselenium.framework.datadriven.suiteB.Test1 -->
+    </test> <!-- Test 1 -->
+    <test name="Test 2" duration-ms="24" started-at="2014-11-15T01:54:04Z" finished-at="2014-11-15T01:54:04Z">
+      <class name="com.qtpselenium.framework.datadriven.suiteB.Test2">
+        <test-method status="PASS" signature="test2(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.suiteB.Test2@ca128d]" name="test2" duration-ms="8" started-at="2014-11-14T20:54:04Z" data-provider="suiteBDataProvider" finished-at="2014-11-14T20:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col5=E1, Col4=D1, Col3=C1, Col2=B1, Col1=A1, Runmode=Y, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.suiteB.Test2@ca128d]" name="test2" duration-ms="5" started-at="2014-11-14T20:54:04Z" data-provider="suiteBDataProvider" finished-at="2014-11-14T20:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col5=E2, Col4=D2, Col3=C2, Col2=B2, Col1=A2, Runmode=N, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.suiteB.Test2@ca128d]" name="test2" duration-ms="4" started-at="2014-11-14T20:54:04Z" data-provider="suiteBDataProvider" finished-at="2014-11-14T20:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col5=E3, Col4=D3, Col3=C3, Col2=B3, Col1=A3, Runmode=Y, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.qtpselenium.framework.datadriven.suiteB.Test2 -->
+    </test> <!-- Test 2 -->
+  </suite> <!-- Suite B -->
+  <suite name="PortFolio Suite" duration-ms="20911" started-at="2014-11-15T01:53:43Z" finished-at="2014-11-15T01:54:04Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="20860" started-at="2014-11-15T01:53:43Z" finished-at="2014-11-15T01:54:04Z">
+      <class name="com.qtpselenium.framework.datadriven.PortFolioSuite.LoginTest">
+        <test-method status="PASS" signature="LoginTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.PortFolioSuite.LoginTest@1a9bced]" name="LoginTest" duration-ms="10613" started-at="2014-11-14T20:53:43Z" data-provider="PortfolioDataProvider" finished-at="2014-11-14T20:53:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=C1, Runmode=Y, Comment=E1, UserName=B1, Expected_Result=D1, Browser=Firefox, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.PortFolioSuite.LoginTest@1a9bced]" name="LoginTest" duration-ms="10006" started-at="2014-11-14T20:53:54Z" data-provider="PortfolioDataProvider" finished-at="2014-11-14T20:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=C2, Runmode=Y, Comment=E2, UserName=B2, Expected_Result=D2, Browser=Firefox, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolioSuite.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Test 2" duration-ms="33" started-at="2014-11-15T01:54:04Z" finished-at="2014-11-15T01:54:04Z">
+      <class name="com.qtpselenium.framework.datadriven.PortFolioSuite.Test2">
+        <test-method status="PASS" signature="test2(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.PortFolioSuite.Test2@3f6e5a]" name="test2" duration-ms="6" started-at="2014-11-14T20:54:04Z" data-provider="PortfolioDataProvider" finished-at="2014-11-14T20:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=C1, Runmode=Y, Comment=E1, UserName=B1, Expected_Result=D1, Browser=A1, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.PortFolioSuite.Test2@3f6e5a]" name="test2" duration-ms="7" started-at="2014-11-14T20:54:04Z" data-provider="PortfolioDataProvider" finished-at="2014-11-14T20:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=C2, Runmode=N, Comment=E2, UserName=B2, Expected_Result=D2, Browser=A2, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.PortFolioSuite.Test2@3f6e5a]" name="test2" duration-ms="5" started-at="2014-11-14T20:54:04Z" data-provider="PortfolioDataProvider" finished-at="2014-11-14T20:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=C3, Runmode=N, Comment=E3, UserName=B3, Expected_Result=D3, Browser=A3, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolioSuite.Test2 -->
+    </test> <!-- Test 2 -->
+  </suite> <!-- PortFolio Suite -->
+  <suite name="My suite" duration-ms="0" started-at="2014-11-15T01:54:04Z" finished-at="2014-11-15T01:54:04Z">
+    <groups>
+    </groups>
+  </suite> <!-- My suite -->
+</testng-results>

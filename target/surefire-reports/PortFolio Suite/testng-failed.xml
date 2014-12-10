@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [PortFolio Suite]">
+  <listeners>
+    <listener class-name="com.qtpselenium.framework.datadriven.CustomListener"/>
+  </listeners>
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.PortFolioSuite.LoginTest">
+        <methods>
+          <include name="LoginTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolioSuite.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [PortFolio Suite] -->
