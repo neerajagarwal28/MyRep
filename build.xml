@@ -5,7 +5,8 @@
 <project name="Learning TestNG" default="usage" basedir=".">  
 
 <!-- ========== Initialize Properties =================================== -->
-    <property environment="env"/>    
+    <property environment="env"/>
+
     <property name="ws.home" value="${basedir}"/>
 	<property name="ws.jars" value="C:\Users\AgaNe001\.m2\repository"/>
     <property name="test.dest" value="${ws.home}/build"/>
@@ -43,7 +44,6 @@
 
     <!-- clean -->
     <target name="clean">
-	echo ${test.dest}
         <delete dir="${test.dest}"/>
     </target>
 
