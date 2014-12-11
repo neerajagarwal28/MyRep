@@ -8,10 +8,14 @@
     <property environment="env"/>
 
     <property name="ws.home" value="${basedir}"/>
-	<property name="ws.jars" value="C:\Users\AgaNe001\.m2\repository"/>
+	<property name="ws.jars" value="${ws.home}/Jars"/>
     <property name="test.dest" value="${ws.home}/build"/>
-    <property name="test.src" value="${ws.home}/src"/>
+    <property name="test.src" value="${ws.home}/src/test/resources"/>
 	<property name="ng.result" value="test-output"/>
+	<property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+	
+    
     
     <!--target name="start-selenium-server">
         <java jar="${ws.home}/lib/selenium-server.jar"/>
@@ -60,7 +64,7 @@
             debug="true" 
             destdir="${test.dest}" 
             srcdir="${test.src}" 
-            target="1.5" 
+            target="1.7" 
             classpath="${test.classpath}"
         >
         </javac>
@@ -73,7 +77,7 @@
     <!-- run -->
     <target name="run" depends="compile">
         <testng classpath="${test.classpath}:${test.dest}" suitename="suite1">	
-            <xmlfileset dir="${ws.home}" includes="testng.xml"/>
+            <xmlfileset dir="${ws.home}/src/test/resources" includes="testng.xml"/>
         </testng>
         <!--
         <testng classpath="${test.classpath}:${test.dest}" groups="fast">
